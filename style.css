@@ -1,14 +1,60 @@
-.topNavBar {
-    border: 1px solid black;
-    position: fixed;
+body {
     display: flex;
-    width: 100%;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topNavBar {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: 56px;
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
 }
+.innerTopNavBar {
+    border: 1px solid black;
+    display: flex;
+    width: 1024px;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    position: fixed;
+}
 .topNavBarLeft {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#logo img {
+    max-height: 40px;
+}
+#inputBar input {
+    height: 30px;
+    width: 275px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+.topNavBarRight {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logIn span {
+    color: rgb(64, 64, 64);
+    font-weight: 100;
+}
+.createAccount {
+    border: 1px solid rgb(48, 77, 218);
+    border-radius: 7px;
+    margin: 5px;
+    padding: 10px 15px;
+}
+.createAccount span {
+    color: rgb(48, 77, 218);
+}
+.content {
+    display: flex;
 }
