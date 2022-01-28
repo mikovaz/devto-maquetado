@@ -1,0 +1,14 @@
+.topNavBar {
+    border: 1px solid black;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.topNavBarLeft {
+    display: flex;
+    flex-direction: row;
+}
