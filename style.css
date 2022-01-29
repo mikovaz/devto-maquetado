@@ -190,7 +190,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 .merchBox {
     display: flex;
@@ -241,6 +241,7 @@ body {
 .finalLeftBox a {
     text-decoration: none;
     color: rgb(48, 77, 218);
+    line-height: 20px;
 }
 .finalLeftBox span {
     color: rgb(64, 64, 64);
