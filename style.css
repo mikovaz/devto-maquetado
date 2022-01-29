@@ -166,6 +166,36 @@ body {
 .imageMainCard img {
     max-width: 650px;
 }
+.userInfo {
+    display: flex;
+    padding: 15px 15px 0px 15px;
+    gap: 5px;
+}
+.userPhoto {
+    border-radius: 50%;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: rgb(225, 225, 225);
+    max-width: 32px;
+    max-height: 32px;
+}
+.userPhotoRounded {
+    border-radius: 50%;
+    max-width: 32px;
+    max-height: 32px;
+}
+.userName {
+    font-size: 14px;
+    color: #3d3d3d;
+}
+.containerTextCards {
+    margin-left: 8%;
+    margin-right: 4%;
+}
+.smallFont {
+    color: rgb(115, 115, 115);
+    font-size: 12px;
+}
 .button {
     margin: 20px;
 }
