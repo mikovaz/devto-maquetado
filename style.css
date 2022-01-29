@@ -153,6 +153,10 @@ body {
     background-color: rgb(226, 227, 242);
     border-radius: 5px;
 }
+.subtitleLeftBar {
+    display: flex;
+    padding: 0 10px;
+}
 .centerMainContent {
     display: flex;
     flex-direction: column;
