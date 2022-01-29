@@ -454,6 +454,13 @@ body {
     outline-width: 1px;
     outline-color: rgb(225, 225, 225);
     box-shadow: 0 0 1px;
+    margin-bottom: 10px;
+}
+.listings:hover {
+    background-color: #FFF;
+}
+.listings:hover .titleListing {
+    color: rgb(38, 61, 174);
 }
 .spaceTitles {
     display: flex;
