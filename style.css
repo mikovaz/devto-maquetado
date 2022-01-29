@@ -186,6 +186,32 @@ body {
     background-color: rgb(226, 227, 242);
     border-radius: 5px;
 }
+.containerMerchBox {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.merchBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+    background-color: rgb(250, 250, 250);
+    padding: 20px 5px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: rgb(225, 225, 225);
+    box-shadow: 0 1px;
+}
+.merchBox h2 {
+    color: rgb(48, 77, 218)
+}
+.merchBox img {
+    border-radius: 5px;
+    max-width: 200px;
+}
 .centerMainContent {
     display: flex;
     flex-direction: column;
