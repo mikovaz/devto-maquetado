@@ -162,6 +162,7 @@ body {
     outline-width: 1px;
     outline-color: rgb(225, 225, 225);
     box-shadow: 0 0 1px;
+    padding-bottom: 2%;
 }
 .imageMainCard img {
     max-width: 650px;
@@ -188,6 +189,13 @@ body {
     font-size: 14px;
     color: #3d3d3d;
 }
+.userName span {
+    padding: 10px 0;
+}
+.userName span:hover {
+    background-color: rgb(246, 246, 246);
+    border-radius: 5px;
+}
 .containerTextCards {
     margin-left: 8%;
     margin-right: 4%;
@@ -197,8 +205,13 @@ body {
 .titleCards h1 {
     margin-bottom: 0;
 }
+.titleCards:hover {
+    color: rgb(38, 61, 174);
+}
 .tagsCards {
-    padding: 10px 0;
+    padding: 10px 10px;
+    display: flex;
+    gap: 2%;
 }
 .hashtags {
     display: flex;
@@ -211,7 +224,9 @@ body {
     border-radius: 5px;
     outline-style: solid;
     outline-width: 1px;
-    outline-color: rgb(64, 64, 64);
+}
+.purple:hover {
+    background-color: rgb(84, 40, 99);
 }
 .infoCards {
     display: flex;
@@ -238,12 +253,21 @@ body {
 }
 .bottomInfoText {
     display: flex;
+    align-items: center;
 }
 .readTime {
     font-size: 12px;
+    padding-right: 10px;
 }
 .savePost {
     font-size: 14px;
+    border-radius: 5px;
+    background-color: rgb(214, 214, 215);
+    color: rgb(75, 75, 75);
+    padding: 10px 10px;
+}
+.savePost:hover {
+    background-color: rgb(189, 189, 189);
 }
 .midSizedFont {
     font-size: 14px;
