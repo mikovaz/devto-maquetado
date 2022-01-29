@@ -164,6 +164,9 @@ body {
     box-shadow: 0 0 1px;
     padding-bottom: 2%;
 }
+.card {
+    margin-bottom: 8px;
+}
 .imageMainCard img {
     max-width: 650px;
 }
@@ -207,6 +210,9 @@ body {
 }
 .titleCards:hover {
     color: rgb(38, 61, 174);
+}
+.titleCards h2 {
+    margin-bottom: 0;
 }
 .tagsCards {
     padding: 10px 10px;
