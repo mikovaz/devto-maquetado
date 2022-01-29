@@ -233,10 +233,14 @@ body {
     box-shadow: 0 1px;
 }
 .finalLeftBox p {
-    margin: 0;
+    margin: 2px 10px;
     color: rgb(64, 64, 64);
     line-height: 20px;
     text-align: left;
+}
+.finalLeftBox a {
+    text-decoration: none;
+    color: rgb(48, 77, 218);
 }
 .finalLeftBox span {
     color: rgb(64, 64, 64);
