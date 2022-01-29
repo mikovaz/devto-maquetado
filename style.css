@@ -157,6 +157,19 @@ body {
     display: flex;
     padding: 0 10px;
 }
+.socialMediaIcons {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.socialMediaLogo {
+    padding: 10px;
+}
+.socialMediaLogo:hover {
+    color: rgb(38, 61, 174);
+    background-color: rgb(226, 227, 242);
+    border-radius: 5px;
+}
 .centerMainContent {
     display: flex;
     flex-direction: column;
