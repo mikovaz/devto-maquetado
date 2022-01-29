@@ -130,16 +130,23 @@ body {
 .homeText {
     display: flex;
 }
-.homeText a {
-    text-decoration: none;
+.linkText span {
     color: rgb(64, 64, 64);
+    padding-left: 15px;
 }
-.listingsText {
+.linkText {
     display: flex;
+    justify-content: flex-start;
 }
-.listingsText a {
-    text-decoration: none;
-    color:rgb(64, 64, 64)
+.quickLinks {
+    display: flex;
+    padding: 20px 10px;
+}
+.quickLinks:hover span {
+    color: rgb(38, 61, 174);
+}
+.quickLinks:hover {
+    color: rgb(38, 61, 174);
 }
 .centerMainContent {
     display: flex;
