@@ -170,6 +170,22 @@ body {
     background-color: rgb(226, 227, 242);
     border-radius: 5px;
 }
+.tagsLink {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+.tagsText {
+    color: rgb(64, 64, 64);
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tagsText:hover {
+    color: rgb(38, 61, 174);
+    background-color: rgb(226, 227, 242);
+    border-radius: 5px;
+}
 .centerMainContent {
     display: flex;
     flex-direction: column;
