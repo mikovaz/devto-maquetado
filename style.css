@@ -220,13 +220,53 @@ body {
 .hashtagsButton {
     padding: 5px;
 }
-.hashtagsButton:hover {
+.hashtagsButtonPurple:hover {
     border-radius: 5px;
     outline-style: solid;
     outline-width: 1px;
+    outline-color: rgb(196, 179, 198);
 }
 .purple:hover {
-    background-color: rgb(84, 40, 99);
+    background-color: rgb(238, 233, 239);
+}
+#purpleHashtag {
+    color: rgb(84, 40, 99);
+}
+.hashtagsButtonViolet:hover {
+    border-radius: 5px;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: rgb(178, 171, 215);
+}
+.violet:hover {
+    background-color: rgb(244, 230, 243);
+}
+#violetHashtag {
+    color: rgb(34, 18, 148);
+}
+.hashtagsButtonYellow:hover {
+    border-radius: 5px;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: rgb(252, 245, 191);
+}
+.yellow:hover {
+    background-color: rgb(254, 252, 233);
+}
+#yellowHashtag {
+    color: rgb(250, 228, 95);
+}
+.hashtagsButtonBlue:hover {
+    border-radius: 5px;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: rgb(178, 200, 248);
+}
+.blue:hover {
+    background-color: rgb(233, 239, 253);
+}
+#blueHashtag {
+    color: rgb(21, 104, 236);
 }
 .infoCards {
     display: flex;
