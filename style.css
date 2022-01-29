@@ -138,15 +138,20 @@ body {
     display: flex;
     justify-content: flex-start;
 }
+.leftLinks {
+    padding-top: 10px;
+}
 .quickLinks {
     display: flex;
-    padding: 20px 10px;
+    padding: 10px 10px;
 }
 .quickLinks:hover span {
     color: rgb(38, 61, 174);
 }
 .quickLinks:hover {
     color: rgb(38, 61, 174);
+    background-color: rgb(226, 227, 242);
+    border-radius: 5px;
 }
 .centerMainContent {
     display: flex;
