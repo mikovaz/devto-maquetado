@@ -51,7 +51,6 @@ header {
 .topNavBarRight {
     display: flex;
     align-items: center;
-    gap: 10px;
 }
 .createAccount {
     border: 1px solid rgb(48, 77, 218);
@@ -61,6 +60,13 @@ header {
 }
 .createAccount span {
     color: rgb(48, 77, 218);
+}
+.createAccount:hover {
+    background-color: rgb(62, 73, 215);
+}
+.createAccount:hover span {
+    color: #FFF;
+    text-decoration: underline;
 }
 .logIn span {
     color: rgb(64, 64, 64);
