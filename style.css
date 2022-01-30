@@ -565,5 +565,13 @@ footer {
     background-color: rgb(212, 213, 228);
 }
 .enterCard {
-    
+    display: flex;
+    flex-direction: column;
+    background-color:#FFF;
+    border-radius: 5px;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: rgb(225, 225, 225);
+    box-shadow: 0 0 1px;
+    padding-bottom: 2%;
 }
