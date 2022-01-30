@@ -37,7 +37,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 10px;
 }
 #logo img {
     max-height: 40px;
@@ -47,6 +46,7 @@ header {
     width: 275px;
     border-radius: 3px;
     border: 1px solid gray;
+    margin-left: 15px;
 }
 .topNavBarRight {
     display: flex;
