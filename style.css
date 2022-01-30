@@ -68,6 +68,9 @@ header {
     color: #FFF;
     text-decoration: underline;
 }
+.logIn a {
+    text-decoration: none;
+}
 .logIn span {
     color: rgb(64, 64, 64);
     font-weight: 100;
