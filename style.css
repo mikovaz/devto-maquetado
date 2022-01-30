@@ -597,6 +597,7 @@ footer {
     align-items: center;
     padding: 15px 0;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 .appleSignInContainer:hover {
     background-color: rgb(27, 27, 27);
@@ -612,6 +613,31 @@ footer {
     padding-right: 20px;
 }
 .appleSignIn span {
+    color: #FFF;
+    font-size: 16px;
+}
+.foremSignInContainer {
+    background-color: rgb(27, 61, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+    border-radius: 5px;
+}
+.foremSignInContainer:hover {
+    background-color: rgb(19, 48, 58);
+}
+.foremSignIn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36%;
+}
+.foremSignIn svg {
+    fill: #FFF;
+    padding-right: 20px;
+}
+.foremSignIn span {
     color: #FFF;
     font-size: 16px;
 }
