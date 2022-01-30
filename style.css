@@ -577,6 +577,9 @@ footer {
     box-shadow: 0 0 1px;
     padding-bottom: 2%;
 }
+.enterCardCenter {
+    width: 85%;
+}
 .enterText {
     display: flex;
     flex-direction: column;
@@ -586,4 +589,24 @@ footer {
 }
 .enterText h1 {
     margin-bottom: 5px;
+}
+.appleSignInContainer {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+.appleSignIn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+.appleSignIn svg {
+    fill: #FFF;
+}
+.appleSignIn span {
+    color: #FFF;
 }
