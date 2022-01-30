@@ -576,6 +576,8 @@ footer {
     outline-color: rgb(225, 225, 225);
     box-shadow: 0 0 1px;
     padding-bottom: 2%;
+    margin-bottom: 20px;
+    margin-top: 5px;
 }
 .enterCardCenter {
     width: 85%;
