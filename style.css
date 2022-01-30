@@ -1,6 +1,16 @@
-body {
+/* body {
     display: flex;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+} */
+header {
+    position: fixed;
+    top: 0px;
+    height: 60px;
+    width: 100%;
+    z-index: 99;
+    background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
 }
 .topNavBar {
@@ -505,7 +515,7 @@ body {
     align-items: center;
     text-align: center;
     background-color: rgb(229, 229, 229);
-    padding: 20px 0;
+    padding: 40px 0;
     font-size: 14px;
     color: rgb(76, 76, 76);
 }
@@ -522,4 +532,11 @@ body {
 }
 .footerText a:hover {
     text-decoration: underline;
+}
+.footerIcon {
+    padding: 5px;
+}
+.footerIcon:hover {
+    border-radius: 5px;
+    background-color: rgb(212, 213, 228);
 }
