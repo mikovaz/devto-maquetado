@@ -52,6 +52,9 @@ header {
     display: flex;
     align-items: center;
 }
+.topNavBarRight a {
+    text-decoration: none;
+}
 .createAccount {
     border: 1px solid rgb(48, 77, 218);
     border-radius: 7px;
