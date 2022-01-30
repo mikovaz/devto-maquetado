@@ -65,6 +65,13 @@ header {
 .logIn span {
     color: rgb(64, 64, 64);
     font-weight: 100;
+    padding: 10px;
+    border-radius: 5px;
+}
+.logIn:hover span {
+    background-color: rgb(235, 236, 251);
+    text-decoration: underline;
+    color: rgb(48, 58, 171);
 }
 .content {
     display: flex;
@@ -264,8 +271,19 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 15px;
     padding: 10px 0;
+}
+.relevantBold {
+    font-weight: bold;
+    color: #000;
+}
+.relevantLatestTop {
+    padding: 10px;
+}
+.relevantLatestTop:hover {
+    background-color: #FFF;
+    color: rgb(48, 77, 218);
+    border-radius: 5px;
 }
 .mainCard {
     display: flex;
