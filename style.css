@@ -94,7 +94,6 @@ header {
     justify-content: center;
     width: 1280px;
     position: relative;
-    gap: 2%;
     margin-top: 10px;
 }
 .leftSideBar {
@@ -129,6 +128,7 @@ header {
     display: flex;
     justify-content: center;
     width: 50%;
+    margin-left: 25px;
 }
 .createAccountSideBar {
     border-radius: 4px;
@@ -471,6 +471,7 @@ header {
 }
 .rightSideBar {
     width: 40%;
+    margin-left: 25px;
 }
 .mainRightSideBar {
     display: flex;
