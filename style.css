@@ -558,6 +558,13 @@ header {
     padding: 15px 0;
     color: rgb(64, 64, 64);
 }
+.finalListings:hover {
+    background-color: #FFF;
+}
+.finalListings:hover span {
+    cursor: pointer;
+    color: rgb(38, 61, 174);
+}
 footer {
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 0;
