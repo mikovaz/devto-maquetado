@@ -310,6 +310,8 @@ header {
 }
 .imageMainCard img {
     max-width: 650px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .userInfo {
     display: flex;
