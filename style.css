@@ -112,7 +112,7 @@ header {
     flex-direction: column;
     background-color: rgb(250, 250, 250);
     padding: 5px 10px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
     border-radius: 5px;
     outline-style: solid;
     outline-width: 1px;
@@ -140,18 +140,39 @@ header {
     border: 1px solid rgb(48, 77, 218);
     text-align: center;
     padding: 5px;
-    margin: 10px;
+    margin: 5px;
 }
 .createAccountSideBar a {
     text-decoration: none;
     color: rgb(48, 77, 218);
 }
+.createAccountSideBar:hover {
+    background-color: rgb(62, 73, 215);
+}
+.createAccountSideBar:hover a {
+    color: #FFF;
+    text-decoration: underline;
+}
 .logInSideBar {
     text-align: center;
+    width: 100%;
+    padding: 5px 0;
+    border-radius: 4px;
+    margin: 5px;
 }
 .logInSideBar a {
+    width: 100%;
     text-decoration: none;
-    color:rgb(64, 64, 64)
+    color:rgb(64, 64, 64);
+    padding: 10px;
+    border-radius: 4px;
+}
+.logInSideBar:hover {
+    background-color: rgb(235, 236, 251);
+}
+.logInSideBar:hover a {
+    text-decoration: underline;
+    color: rgb(48, 58, 171);
 }
 .homeText {
     display: flex;
